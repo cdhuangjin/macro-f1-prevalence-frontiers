@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-08T05:58:40Z",
+  "broad_repetitions_per_cell": 300,
+  "alpha_repetitions_per_cell": 250,
+  "dependence_repetitions_per_cell": 300,
+  "grid_repetitions_per_scenario": 200,
+  "n1": [
+    10,
+    25,
+    50,
+    100,
+    200,
+    400,
+    800
+  ],
+  "n0_ratio": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "alpha": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "dependence": [
+    0,
+    0.3,
+    0.7,
+    0.9
+  ],
+  "bands": [
+    "cp",
+    "dkw"
+  ],
+  "prevalence_grid_points": 25,
+  "seed": 2026100801,
+  "scope": "Additive sensitivity battery; all results are fixed-DGP Monte Carlo summaries, not population inference."
+}

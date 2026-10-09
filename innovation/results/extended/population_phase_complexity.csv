@@ -1,0 +1,5 @@
+scenario,policy_count,segments,pairwise_cut_count,boundaries
+identical,36,4,23,5
+separated,36,3,102,4
+crossing,36,4,184,5
+atoms,36,4,41,5

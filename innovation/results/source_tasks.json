@@ -1,0 +1,113 @@
+{
+  "source": "OpenML dataset metadata recorded for the archived tasks; availability and licensing must be checked at the source.",
+  "datasets": [
+    {
+      "name": "pc4",
+      "openml_id": 1049,
+      "version": 1,
+      "n": 1458,
+      "positive_n": 178,
+      "target": "c",
+      "positive_class": "True",
+      "negative_class": "False",
+      "sha256": "FBDFAA3EDD34EEF6A064B9EC37429B8DE01947DE1D095495A55361D98CD295DA",
+      "parquet_url": "https://data.openml.org/datasets/0000/1049/dataset_1049.pq"
+    },
+    {
+      "name": "bank_marketing",
+      "openml_id": 1461,
+      "version": 1,
+      "n": 45211,
+      "positive_n": 5289,
+      "target": "Class",
+      "positive_class": "2",
+      "negative_class": "1",
+      "sha256": "8A8BC2A12D8151DA589F24D01E990A3690FC4259727A9797A24BE4AE748B056C",
+      "parquet_url": "https://data.openml.org/datasets/0000/1461/dataset_1461.pq"
+    },
+    {
+      "name": "churn",
+      "openml_id": 40701,
+      "version": 1,
+      "n": 5000,
+      "positive_n": 707,
+      "target": "class",
+      "positive_class": "1",
+      "negative_class": "0",
+      "sha256": "88E0922FD98825CD4A1FC7ACB8A9A7730D9B30AAC7C6C3418F77B3C42CBFD89B",
+      "parquet_url": "https://data.openml.org/datasets/0004/40701/dataset_40701.pq"
+    },
+    {
+      "name": "credit_g",
+      "openml_id": 31,
+      "version": 1,
+      "n": 1000,
+      "positive_n": 300,
+      "target": "class",
+      "positive_class": "bad",
+      "negative_class": "good",
+      "sha256": "5855869A10F25163C983E29B48BD11D5C3B2BDDEBE53CD305573083D23C8078F",
+      "parquet_url": "https://data.openml.org/datasets/0000/0031/dataset_31.pq"
+    },
+    {
+      "name": "ozone",
+      "openml_id": 1487,
+      "version": 1,
+      "n": 2534,
+      "positive_n": 160,
+      "target": "Class",
+      "positive_class": "2",
+      "negative_class": "1",
+      "sha256": "59B128EF05E4862DBFF65C0BC7E937AEF5949261FDBA9E5E04F8C5CB2A5A4D6A",
+      "parquet_url": "https://data.openml.org/datasets/0000/1487/dataset_1487.pq"
+    },
+    {
+      "name": "sick",
+      "openml_id": 38,
+      "version": 1,
+      "n": 3772,
+      "positive_n": 231,
+      "target": "Class",
+      "positive_class": "sick",
+      "negative_class": "negative",
+      "sha256": "BE1206080AF1FCCCB5851CE31B9AAB27C8E38631BE6458A4E302301A6384158D",
+      "parquet_url": "https://data.openml.org/datasets/0000/0038/dataset_38.pq"
+    },
+    {
+      "name": "wilt",
+      "openml_id": 40983,
+      "version": 2,
+      "n": 4839,
+      "positive_n": 261,
+      "target": "class",
+      "positive_class": "2",
+      "negative_class": "1",
+      "sha256": "382052803B0B6C7746231791BEA569BA841D4538735F97AC685D3F0DFD410A70",
+      "parquet_url": "https://data.openml.org/datasets/0004/40983/dataset_40983.pq"
+    },
+    {
+      "name": "kc1",
+      "openml_id": 1067,
+      "version": 1,
+      "n": 2109,
+      "positive_n": 326,
+      "target": "defects",
+      "positive_class": "True",
+      "negative_class": "False",
+      "sha256": "43C67F536E42F5BF4AEF18FCD5CF1635B01BAD2E09D5B60BBCE5C155C722FC4B",
+      "parquet_url": "https://data.openml.org/datasets/0000/1067/dataset_1067.pq"
+    },
+    {
+      "name": "jm1",
+      "openml_id": 1053,
+      "version": 1,
+      "n": 10885,
+      "positive_n": 2106,
+      "target": "defects",
+      "positive_class": "True",
+      "negative_class": "False",
+      "sha256": "F042E8D153B19A9B5C2BAE7677AFBE863928FDE46A909E996ADC9DBE63F29A51",
+      "parquet_url": "https://data.openml.org/datasets/0000/1053/dataset_1053.pq"
+    }
+  ]
+}

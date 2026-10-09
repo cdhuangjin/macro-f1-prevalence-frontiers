@@ -1,0 +1,27 @@
+{
+  "blocks": 135,
+  "forest_seed_views": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "primary_forest_seed": 101,
+  "policies_per_view": 12,
+  "split_seed": 20261008,
+  "calibration_fraction_per_class": "floor(nc/2)/nc",
+  "source_prevalence": {
+    "pc4": 0.12208504801097393,
+    "bank_marketing": 0.11698480458295547,
+    "churn": 0.1414,
+    "credit_g": 0.3,
+    "ozone": 0.06314127861089187,
+    "sick": 0.0612407211028632,
+    "wilt": 0.05393676379417235,
+    "kc1": 0.15457562825983878,
+    "jm1": 0.1934772622875517
+  },
+  "seconds": 12.818401199998334,
+  "scope": "Descriptive sensitivity on fixed tasks; no real deployment data; no IID/general-population guarantee asserted."
+}

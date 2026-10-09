@@ -1,0 +1,12 @@
+{
+  "calibration_draws": 16000,
+  "method_records": 32000,
+  "conditions": 16,
+  "replicates_per_condition": 1000,
+  "seed_formula": "2026100830 + di*100000 + ki*10000 + ni*100",
+  "within_draw_pairing": "CP/DKW only",
+  "across_conditions_pairing": false,
+  "dkw_models": "M=K",
+  "python": "3.12.10",
+  "scope": "Fixed-density K changes competitors and confidence allocation; oracle preserved."
+}

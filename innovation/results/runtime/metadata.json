@@ -1,0 +1,73 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.4.4",
+  "repetitions": 3,
+  "interval": [
+    0.01,
+    0.99
+  ],
+  "source_sha256": "fd7d5ce34ec700c282dd546ce8ac124e5ec7ce14f54b932eaadc99812834e0c7",
+  "checks": [
+    {
+      "family": "sqrt",
+      "K": 32,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "sqrt",
+      "K": 64,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "sqrt",
+      "K": 128,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "sqrt",
+      "K": 256,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "sqrt",
+      "K": 1024,
+      "matched_all_pairs": false,
+      "grid_points": 301
+    },
+    {
+      "family": "diagonal",
+      "K": 32,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "diagonal",
+      "K": 64,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "diagonal",
+      "K": 128,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "diagonal",
+      "K": 256,
+      "matched_all_pairs": true,
+      "grid_points": 301
+    },
+    {
+      "family": "diagonal",
+      "K": 1024,
+      "matched_all_pairs": false,
+      "grid_points": 301
+    }
+  ],
+  "scope": "Complete functions including boundary label scans. Shared pair-root helper means timing baseline is not independent root-accuracy proof. All-pairs omitted at K1024 by design; no speed extrapolation."
+}

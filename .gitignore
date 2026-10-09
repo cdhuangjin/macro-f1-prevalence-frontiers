@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+innovation/figures/
+innovation/archive_not_included/
+*.parquet
+*.zip
+*.log
+.env
